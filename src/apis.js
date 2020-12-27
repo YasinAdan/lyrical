@@ -1,0 +1,2 @@
+export const apiKey = 'b8c8887c304390aaf47ccf35f08fcfa8'
+export const tracksRequest = `https://cors-access-allow.herokuapp.com/https://api.musixmatch.com/ws/1.1/chart.tracks.get?chart_name=top&page=1&page_size=11&country=us&f_has_lyrics=1&apikey=${apiKey}`
