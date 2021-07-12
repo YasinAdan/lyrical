@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className='navbar navbar-dark bg-dark mb-5'>
-            <span className='navbar-brand mb-0 mx-auto'>LyricFinder</span>
+        <nav className='flex justify-center items-center w-full h-12 bg-gray-800'>
+            <span className='text-white text-xl uppercase'>Lyrical</span>
         </nav>
     )
 }

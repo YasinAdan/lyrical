@@ -14,8 +14,10 @@ class Tracks extends Component {
           } else {
             return (
               <React.Fragment>
-                <h3 className="text-center mb-4">{heading}</h3>
-                <div className="row">
+                <div class='h-full flex justify-center items-center'>
+                <h3 className="p-2 text-center my-4 border-2 bg-black text-white rounded-lg">{heading}</h3>
+                </div>
+                <div className="ml-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {track_list.map((item) => (
                     <Track track={item.track} key={item.track.track_id} />
                   ))}

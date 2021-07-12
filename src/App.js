@@ -12,7 +12,7 @@ function App() {
         <>
           <Navbar />
         </>
-        <div className="container">
+        <div>
           <Switch>
             <Route exact path="/" component={Index} />
             <Route exact path='/lyrics/track/:id' component={lyrics}/>
